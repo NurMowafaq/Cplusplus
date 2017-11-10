@@ -60,7 +60,7 @@ void MoneyWithdrawalScreen()
      cout<<"\nHow much do you want money to pull :";
      cin>>money_val;
 
-      if (money_val % 5 == 0 && money_val>= 500)
+      if (money_val % 500 == 0 && money_val>= 500)
         MoneyWithdrawal(money_val);
 
       else
